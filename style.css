@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #232323;
+    background-color: #fff;
+    background-size: cover;
+    width: 100%;
+}
+
+section {
+    width:700px;
+    height: 300px;
+	top: 50%;
+	left: 50%;
+    position: absolute;
+    transform: translate(-50%, -90%);
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.text {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -300px;
+}
+
+.text2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#weight {
+    color: #232323;
+    border-width: 1px;
+    border-color: #a09e9e;
+    padding: 5px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    background: none;
+    width: 200px;
+    margin-left: -275px;
+}
+
+#height {
+    color: #232323;
+    border-width: 1px;
+    border-color: #a09e9e;
+    padding: 5px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    background: none;
+    width: 200px;
+    margin-left: -275px;
+}
+
+#result {
+    color: #341f97;
+}
+
+#button {
+    font-family: inherit;
+    margin-top: 30px;
+    margin-left: -235px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(0, 89, 255);
+    width: 150px;
+    cursor: pointer;
+    height: 30px;
+    font-size: medium;
+}
+
+#reset {
+    font-family: inherit;
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(237, 45, 6);
+    width: 100px;
+    font-size: medium;
+    cursor: pointer;
+    height: 30px;
+}
+
+#button:hover{
+    background-color: rgb(88, 160, 241); 
+    color: white;
+      
+}
+
+#reset:hover{
+    background-color: rgb(238, 111, 111); 
+    color: white;
+}
+
+#guide {
+    font-size: 18px;
+    font-family: inherit;
+    margin-bottom: 30px;
+}
+
+#result{
+    color: #341f97;
+    font-size: large;
+    font-weight:500;
+    margin-top: 30px;
+}
+
+#status {
+    color: #341f97;
+    font-size: large;
+    font-weight: 700;
+}
